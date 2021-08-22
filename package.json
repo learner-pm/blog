@@ -1,0 +1,24 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs --temp .temp",
+    "docs:build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Thank-love/blog.git"
+  },
+  "author": "pm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thank-love/blog/issues"
+  },
+  "homepage": "https://github.com/Thank-love/blog#readme",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
